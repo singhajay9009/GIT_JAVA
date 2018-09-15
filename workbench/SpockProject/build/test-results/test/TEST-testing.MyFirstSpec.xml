@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.MyFirstSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-09-01T18:15:46" hostname="MAFIA-VPCEA45FG" time="0.205">
+  <properties/>
+  <testcase name="Test_One" classname="testing.MyFirstSpec" time="0.205">
+    <failure message="Expected exception of type 'java.lang.Exception', but no exception was thrown" type="org.spockframework.runtime.WrongExceptionThrownError">Expected exception of type 'java.lang.Exception', but no exception was thrown
+	at org.spockframework.lang.SpecInternals.checkExceptionThrown(SpecInternals.java:85)
+	at org.spockframework.lang.SpecInternals.thrownImpl(SpecInternals.java:68)
+	at testing.MyFirstSpec.Test_One(MyFirstSpec.groovy:16)
+</failure>
+  </testcase>
+  <system-out><![CDATA[6
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
